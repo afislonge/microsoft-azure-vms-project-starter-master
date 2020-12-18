@@ -40,3 +40,21 @@ input[type="checkbox"].input-validation-error {
 .validation-summary-valid {
     display: none;
 }
+.welcome{
+    color: white;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.back {
+    color: #333;
+    text-decoration: none !important;
+    padding: 4px 8px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133)) !important;
+    display: inline-block;
+    font: 400 13.3333px Arial;
+    background-color: #efefef;
+}

@@ -28,6 +28,7 @@
                     {% if current_user.is_anonymous %}
                     <li><a href="{{ url_for('login') }}">Login</a></li>
                     {% else %}
+                    <li class="welcome">Welcome&nbsp;{{current_user.username}}</li>
                     <li><a href="{{ url_for('logout') }}">Logout</a></li>
                     {% endif %}
                 </ul>
@@ -47,6 +48,7 @@
         {% endwith %}
         {% block content %}{% endblock %}
         <hr />
+        <p>Powered by Afis Longe</p>
     </div>
 
     <script src="/static/scripts/jquery-1.10.2.js"></script>
