@@ -8,20 +8,20 @@
 - *Justify your choice*
 
 ### Virtual Machine (VM)
-- **costs:** They are more expensive
-- **scalability:** Multiple VMs can be grouped to provide high availability
-- **availability:** Multiple VMs can be grouped to provide high scalability
-- **workflow:**
+IaaS option giving the developer complete control over deployment and the technology stack of the operating system. Provides tiers getting into substantially more memory and CPU cores.
+- They are more expensive
+- Multiple VMs can be grouped to provide high availability
+- Multiple VMs can be grouped to provide high scalability
 
 ### App Service
-- **costs:** Cost less than VMs
-- **scalability:** Vertical or Horizontal scaling capability, without having to redeploy.
-- **availability:** Achieve high availability with SLA-backed uptime of 99.95%.
-- **workflow:**
+PaaS option allowing the developer to focus on app development while receiving less control over the deployment pipeline. Tiers provide less memory and CPU cores.
+- Cost less than VMs
+- Vertical or Horizontal scaling capability, without having to redeploy.
+- Achieve high availability with SLA-backed uptime of 99.95%.
 
 ### Deployment Option
 
-The project deployed to App Service
+**The project deployed to App Service**
 
 ### Justification
 
