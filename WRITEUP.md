@@ -36,7 +36,7 @@ I choose an App Service in this situation because of the following
 
 *Detail how the app and any other needs would have to change for you to change your decision in the last section.* 
 
-App Service was used for the deployment, the following would have to chnage for me to change my decision
+App Service was used for the deployment, the following would have to change for me to change my decision
 
 - A vast increase in the number of users
 - The need for dedicated servers for security reasons
